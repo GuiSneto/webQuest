@@ -1,0 +1,501 @@
+/*
+*
+*@author Guilherme Staciarini
+*/
+/* Layout
+-------------------------*/
+
+html, body, #home {
+	height: 100%;
+	overflow-x: hidden;
+}
+body {
+	background: url(../imagens/capa.png);
+	background-attachment:fixed;
+
+	
+}
+p {
+	text-align:justify;
+	
+}
+
+/* animação nac
+-------------*/
+
+.pcenter {
+	text-align:center;
+}
+#tcapa {
+	color:white;
+	-webkit-text-stroke-width: 2px; /* largura da borda */
+    -webkit-text-stroke-color:black;
+	
+}
+
+#sobre {
+	background-image:url(../imagens/intro.png);
+	background-size:30px;
+	background-repeat:no-repeat;
+	background-position-x:-30px;
+	background-position-y:center;
+	padding-left:30px;
+}
+#skillss{
+	width:100%;
+	height:270px;
+	display:block;
+	white-space:normal;
+}
+
+#logoname {
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	color:white;
+	background-image:url(../imagens/resistorlogo.png);
+	background-size:55px;
+	background-repeat:no-repeat;
+	background-position-x:-80px;
+	background-position-y:center;
+	padding-left:60px;
+}
+#curriculo {
+	background-image:url(../imagens/questc.png);
+	background-size:25px;
+	background-repeat:no-repeat;
+	background-position-x:-30px;
+	background-position-y:center;
+	padding-left:30px;
+}
+
+#curriculo1 {
+	background-image:url(../imagens/conclu.png);
+	background-size:25px;
+	background-repeat:no-repeat;
+	background-position-x:-30px;
+	background-position-y:center;
+	padding-left:30px;
+}
+
+#curriculo2 {
+	background-image:url(../imagens/questf.png);
+	background-size:25px;
+	background-repeat:no-repeat;
+	background-position-x:-30px;
+	background-position-y:center;
+	padding-left:30px;
+}
+
+#curriculo3 {
+	background-image:url(../imagens/cred.png);
+	background-size:25px;
+	background-repeat:no-repeat;
+	background-position-x:-30px;
+	background-position-y:center;
+	padding-left:30px;
+}
+
+#skills {
+	background-image:url(../imagens/questa.png);
+	background-size:25px;
+	background-repeat:no-repeat;
+	background-position-x:-30px;
+	background-position-y:center;
+	padding-left:30px;
+
+}	
+#projetos {
+	background-image:url(../imagens/questb.png);
+	background-size:25px;
+	background-repeat:no-repeat;
+	background-position-x:-30px;
+	background-position-y:center;
+	padding-left:30px;
+
+}	
+#curriculo:hover {
+	background-position-x:-1px;
+	background-position-y:center;
+	padding-left:30px;
+	background-color:white;
+	border-radius:10px;
+	transition: all 0.5s;
+	
+}
+#curriculo1:hover {
+	background-position-x:-1px;
+	background-position-y:center;
+	padding-left:30px;
+	background-color:white;
+	border-radius:10px;
+	transition: all 0.5s;
+	
+}
+#curriculo2:hover {
+	background-position-x:-1px;
+	background-position-y:center;
+	padding-left:30px;
+	background-color:white;
+	border-radius:10px;
+	transition: all 0.5s;
+	
+}
+#curriculo3:hover {
+	background-position-x:-1px;
+	background-position-y:center;
+	padding-left:30px;
+	background-color:white;
+	border-radius:10px;
+	transition: all 0.5s;
+	
+}
+
+#sobre:hover {
+	background-position-x:-1px;
+	background-position-y:center;
+	padding-left:30px;
+	background-color:white;
+	border-radius:10px;
+	transition: all 0.5s;	
+}
+#skills:hover {
+	background-position-x:-1px;
+	background-position-y:center;
+	padding-left:30px;
+	background-color:white;
+	border-radius:10px;
+	transition: all 0.5s;	
+	
+}
+#projetos:hover {
+	background-position-x:-1px;
+	background-position-y:center;
+	padding-left:30px;
+	background-color:white;
+	border-radius:10px;
+	transition: all 0.5s;	
+	
+}
+#logoname:hover {
+	color:red;
+	font-size: 27px;
+	background-position-x:5px;
+	background-position-y:center;
+	padding-left:60px;
+	transition: all 0.5s;
+}
+
+
+header nav img {
+	width:100%;
+}
+
+
+
+/* imagens projetos
+----------------------------*/
+
+.bordap img {
+	display:block;
+	margin:auto;
+	width:50%;
+	height:40%;
+
+}
+
+
+
+
+
+
+/* Barra de navegação
+-----------------------------*/
+
+#imagemintro {
+	width:100%;
+	height:100%;
+	
+}
+nav.navbar-transparente {
+	padding: 30px 0px;
+	background: rgba(0,0,0,0.8);
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color:white;
+	font-family: 'Lalezar', cursive;
+	font-size:20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color:black;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,0.5);
+}
+
+.divisor {
+	width: 1px;
+	background:white;
+	margin: 12px 4px;
+}
+
+
+figure {
+	width: 90%;
+	min-width: 17.5em;
+	margin:0 auto;
+}
+figcaption { 
+	font: 120% sans-serif; 
+	text-align: center;
+}
+
+.boxVideo {
+    position: relative;
+    padding-bottom: 56.25%; 
+    padding-top: 25px;
+    height: 0;
+    margin:0 auto;
+}
+.boxVideo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Frase motivação
+-----------------*/
+.capa {
+	text-align:center;
+	color: black;
+	font-family: 'Pacifico', cursive;
+}
+
+
+/* Tipografia
+-----------------------------*/
+.autor {
+	text-align:right;
+}
+
+/* Estrutura conteúdos
+-----------------------------*/
+.caixa {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.borda{
+	border-radius:10px;
+	margin-left:30px;
+	margin-right:30px;
+	margin-bottom:30px;
+
+}
+
+.col-md-12, .col-md-4 .align-self-center {
+	background-color:white;
+	border-radius:10px;
+	margin-bottom:10px;
+}
+
+.skillss{
+	width:50%;
+	height:150px;
+	display:block;
+	white-space: normal;
+	margin:auto;
+}
+#imgr {
+	width:350px;
+	height:175px;	
+}
+img {
+	text-align:center;
+}
+
+.capa {
+	background-color:transparent;
+}
+
+a.btn {
+  display:block;
+  margin:0 auto;
+  width:135px;
+  height:38px;
+  margin-bottom:12px;
+  font-size:18px;
+  
+
+
+}
+a.btn:hover{
+  width:150px;
+  height:42px;
+  font-size:21px;
+  font-style:bold;
+}
+
+
+
+
+
+#servicos h2, h3 {
+	color:rgba(33,192,255,0.5);
+}
+
+.row {
+	background-color:white;
+}
+.foot {
+	background-color:transparent;
+	
+}
+
+
+h3 {
+	color:black;
+	text-align:center;
+	font-size:30px;
+	font-style:bold;
+	font-family: 'Lalezar', cursive;
+	-webkit-text-stroke-width: 0.2px; /* largura da borda */
+    -webkit-text-stroke-color: red; /* cor da borda */
+}
+h2 {
+	color: black;
+	text-align:center;
+	font-size:45px;
+	font-style:bold;
+	font-family: 'Lalezar', cursive;
+	-webkit-text-stroke-width: .4px; /* largura da borda */
+    -webkit-text-stroke-color:red;
+}
+
+/*Rodapé
+--------------*/
+
+footer {
+	background:rgba(0,0,0,0.8);
+	padding: 20px 0px 20px 0px;
+	position: relative;
+	height:85px;
+}
+
+footer h4 {
+	color: #919496;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: #9bf0e1;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+	text-align:center;
+}
+
+footer ul li {
+	display:inline-table;
+}
+footer p {
+	text-align:center;
+	margin-top:15px;
+	color:white;
+	font-style:bold;
+}
+footer .col-md-12 {
+	background-color:transparent;
+	border-radius:10px;
+	margin-bottom:10px;
+	
+}
+footer img {
+	width:70px;
+	height:70px;
+	
+}
+footer img:hover{
+	width:80px;
+	height:80px;
+	transition: all 0.5s;
+	
+}
+
+#imge {
+	width:350px;
+	height:80px;
+	
+}
+#imguxi {
+	width:300px;
+	height:230px;
+	
+}
+#imgee {
+	width:80px;
+	height:60px;
+	
+}
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.capa p {
+		font-size: 2em;
+	}
+
+
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.capa p {
+		font-size: 2em;
+	}
+
+
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.capa p {
+		font-size: 3em;
+	}
+	#cp {
+		margin-bottom:5px;
+	}
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.capa p {
+		font-size: 4em;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.capa p {
+		font-size: 4em;
+	}
+}
