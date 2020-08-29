@@ -389,9 +389,9 @@ h2 {
 
 footer {
 	background:rgba(0,0,0,0.8);
-	padding: 20px 0px 20px 0px;
+	margin-bottom:0px;
 	position: relative;
-	height:85px;
+	height:90px;
 }
 
 footer h4 {
